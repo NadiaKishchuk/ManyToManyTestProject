@@ -3,6 +3,7 @@ using Tests.PatrnersTestContext.Models;
 
 namespace Tests.PatrnersTestContext
 {
+    //context like in the Streetcode project
     internal class ContextWihtEntity: DbContext
     {
         public DbSet<Streetcode> Streetcodes { get; set; }
